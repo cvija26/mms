@@ -1,0 +1,11 @@
+.title-green{
+    color:rgb(41, 255, 70);
+    font-size: 15px;
+    font-weight: bold;
+  
+    padding: 15px;
+  }
+
+  .MuiTableCell-root{
+    padding: 2px !important;
+  }

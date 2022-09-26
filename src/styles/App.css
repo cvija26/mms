@@ -1,0 +1,53 @@
+
+
+.status-logo{
+  width: 10px;
+  height: 10px;
+}
+
+
+.MuiTableRow-root:hover{
+  background-color:aqua !important;
+  cursor: pointer;
+}
+.container{
+  height: 100vh;
+  display:flex;
+  
+  overflow: hidden;
+
+}
+.flex-1{
+  flex-basis:0 ;
+  flex-grow:1 ;
+ 
+}
+
+.container-1{
+  display: flex;
+  height: 100vh;
+  flex-basis:0 ;
+  flex-grow:1 ;
+}
+.container-2{
+  display: flex;
+  flex-basis:0 ;
+  flex-grow:1 ;
+  flex-direction: column;
+ 
+}
+
+.flex-2{
+  flex-basis:0 ;
+  flex-grow:1 ;
+}
+.flex-3{
+  flex-basis:0 ;
+  flex-grow:1 ;
+}
+
+
+
+.MuiTableCell-root{
+  padding: 5px !important;
+}

@@ -1,0 +1,9 @@
+.title-red{
+    color:rgb(251, 33, 33);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .MuiTableCell-root{
+    padding: 8px !important;
+  }

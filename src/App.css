@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  background-color: #131138;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.img-profile{
+  border-radius: 9999px;
+  width: 2rem;
+  height: 2rem;
+  margin:10px 10px;
+}
+.notif{
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  top:-3px;
+
+}
+.name-profile{
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  top:-20px;
+  color: white;
+}
+ .nav-con{
+  position: relative;
+  
+  margin-top: 5px;
+
+}
+.arrow{
+  position: relative;
+  top:-15px;
+  color: white;
+}
+.nav-logo{
+  position: absolute;
+  left: 40%;
+}
+.nav-logo .pu{
+  position: relative;
+  top:-10px;
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(115, 121, 245);
+  margin-right: 8px;
+  font-style: italic;
+}
+.nav-logo .bl{
+  position: relative;
+  top:-10px;
+  font-size: 23px;
+  font-weight: bold;
+  color: aqua;
+  font-style: italic;
+}
+.nav-user{
+  text-align: right;
+}
+.nav-user:hover{
+  cursor: pointer;
+}
+.sidebar{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 70px;
+  background-color:#262254;
+  text-align: center;
+}
+.main-con{
+  margin-left: 75px;
+}
+.menu{
+  text-align: center;
+  margin-top: 50px;
+  list-style: none;
+}
+.menu li:hover{
+  background-color: #000033;
+}
+.active{
+  position: relative;
+  display: block;
+  background-color: #000033;
+  padding: 10px 10px;
+}
+.menu li{
+  padding: 5px 5px;
+}
+.logo{
+  margin-top: 25px;
+}
+/* .main-con{
+  display: flex;
+} */
